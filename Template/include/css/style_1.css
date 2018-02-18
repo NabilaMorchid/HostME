@@ -1,0 +1,18 @@
+/*******************************************SLIDER**************************************************/
+div#slider
+{width: 100%;height: 480px;background-color: transparent;}
+div#slider_container /*khadra*/
+{width: 697px;height: 480px;margin: 0px auto;background-color: transparent;}
+div#animation /*safra*/
+{width: 697px;height: 480px;position: relative;overflow: hidden;background-color: transparent;}
+div#animation div
+{width: 697px;height: 480px;position: absolute;left: 796px;}
+div#animation div:first-child{left: 0;}
+div.animation_container{position: relative;}
+div.next_div{left: 638px!important;position: absolute;width : 60px;height : 110px;bottom : 190px;right: 0;z-index : 2;cursor: pointer;background-image: url("../images/rightNavOFF.png");}
+div.prev_div{position: absolute;width : 60px;height : 110px;bottom : 190px;left: 0;z-index : 2;cursor: pointer;background-image: url("../images/leftNavOFF.png");}
+div.prev_div:hover{background: url("../images/leftNavON.png") no-repeat scroll 0 0 rgba(0,0,0,0) ;}
+div.next_div:hover
+{background: url("../images/rightNavON.png") no-repeat scroll 0 0 rgba(0,0,0,0) ;}
+div.slider_btn{position: absolute;bottom: 50px;left: 500px;z-index: 2;}
+div.slider_btn div{cursor: pointer;}

@@ -1,0 +1,90 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+[class*="col-"]{
+background-color: transparent;
+border: 0px solid black;
+border-radius: 6px;
+text-align: center;
+}
+
+.header{
+	width:100%;
+	position: relative;
+	height:110px;
+	background:white url('../../include/images/hero-splash.jpg') no-repeat top;
+	background-size:cover;
+	
+}
+.header span{
+	color:white;
+}
+.header a span{
+	color:white;
+}
+.navig{
+	background-color: rgb(17,46,94);
+	border:0px solid black;
+	border-radius: 16px;
+	padding: -4px;
+}
+.navig a{
+	color: rgb(255,147,0);
+	text-decoration: none;
+}
+.navig p{
+	color: #FFFFFF;
+	font-size: 20px;
+	font-family: arial;
+}
+.sous_nav{
+	color:white;
+	
+}
+.profil_admin{
+	position: relative;
+	margin: auto;
+	width:50px;
+	height:50px;
+	text-align: center;
+	background:white url("../../include/images/IMG_1200.JPG") no-repeat;
+	background-size:cover;
+	border-radius:25px;
+}
+.menu{
+	width:100%;
+	position: relative;
+	height:50px;
+}
+.content{
+	width:100%;
+	position: relative;
+	height:auto;
+	background:black url('../../include/images/allo.png') repeat;
+	
+}
+.content .icone{
+	position: relative;
+	border-radius:50px;
+	height: 100px;
+	width:100px;
+}
+.icone span{
+	margin-top: 14px;
+	font-size: 60px;
+	color:white;
+
+}
+
+.stati{
+	margin-top: 10px;
+	width:100%;
+	position: relative;
+	height:auto;
+	background-color: transparent;
+}
+div.imgContainer img{
+    width: 343px;height: 228px;
+}
